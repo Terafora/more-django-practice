@@ -23,5 +23,5 @@ urlpatterns = [
     path('', index),
     path('about/', about),
     path('hello/<str:first_name>/', hello),
-    path('add/<int:num1><int:num2>/', add),
+    path('add/<int:num1>/<int:num2>/', add),
 ]
